@@ -5,7 +5,7 @@ server:
 spring:
   config:
     activate:
-      on-profile: docker
+      on-profile: default
 eureka:
   client:
     serviceUrl:
