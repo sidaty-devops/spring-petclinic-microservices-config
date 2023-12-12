@@ -17,7 +17,7 @@ eureka:
 spring:
   config:
     activate:
-      on-profile: docker
+      on-profile: default
   zipkin:
     baseUrl: http://tracing-server:9411
 server:
